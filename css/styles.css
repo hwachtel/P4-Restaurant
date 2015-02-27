@@ -3,7 +3,7 @@
 @media  (max-width:480px) {
 
 	body{
-		background: teal;
+		background:;
 	}
 
 }
@@ -12,7 +12,7 @@
 @media  (min-width:768px) {
 
 	body{
-		background: yellow;
+		background: ;
 	}
 
 }
@@ -20,8 +20,44 @@
 /*Desktop*/
 @media  (min-width:992px) {
 
-	body{
-		background: red;
-	}
+}
 
+
+h1{
+	font-family: 'Lobster Two', cursive;
+	font-size:10rem;
+	color:#FF443B;   
+}
+
+
+h4{
+	font-family: 'Lobster Two', cursive;
+	color:#6F8C73;
+
+}
+
+li{
+	font-family: 'Titillium Web', sans-serif;
+	color:#B8AB87;
+}
+
+h2{
+	font-family: 'Lobster Two', cursive;
+	color:#6F8C73;
+}
+h3{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+
+.img-holder{
+	position:absolute;
+	visibility: visible;
+	max-width:none;
+	height:1104px;
+	width:1963px;
+	transform:translated3d(0px, 0px, 0px);
 }
